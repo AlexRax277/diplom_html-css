@@ -45,21 +45,24 @@
         
     </popup>
     <header class="header">
-        <div href="#0" class="logo">
-            <img src="svg\noemi-logo.svg" alt="logo">
+        <div class="logo_menu">
+            <div href="#0" class="logo">
+                <img src="svg\noemi-logo.svg" alt="logo">
+            </div>
+            <nav class="menu">
+                <ul class="menu_list">
+                    <li><a class="menu__item" href="#0">Главная</a></li>
+                    <li><a class="menu__item" href="#0">Посты</a></li>
+                    <li><a class="menu__item" href="#0">Статьи</a></li>
+                    <li><a class="menu__item" href="#0">Теги</a></li>
+                    <li><a class="menu__item" href="#0">Темы</a></li>
+                    <li><a class="menu__item" href="#0">Контакты</a></li>
+                </ul>  
+            </nav>
         </div>
-        <nav class="menu">
-            <a class="menu__item" href="#0">Главная</a>
-            <a class="menu__item" href="#0">Посты</a>
-            <a class="menu__item" href="#0">Статьи</a>
-            <a class="menu__item" href="#0">Теги</a>
-            <a class="menu__item" href="#0">Темы</a>
-            <a class="menu__item" href="#0">Контакты</a>
-        </nav>
         <div class="intro">
             <span class="title_intro">Блог о творчестве, спорте и образе жизни</span>
         </div>
-        <banner></banner>
     </header>
     <main class="main">
         <h1 class="trends">
@@ -111,175 +114,177 @@
                 </div>
             </div>
         </div>
-        <aside class="side_bar">
-            <div class="latest_posts">
-                <article class="side_bar_title">Новые посты</article>
-                <div class="side_bar_post_list">
-                    <section class="side_bar_post">
-                        <figure class="side_bar_post_picture">
-                            <img src="CSS\images\2.jpg" alt="2">
-                        </figure>
-                        <span class="side_bar_post_date">14 июня 2019</span>
-                        <div class="side_bar_post_content">10 мест, ради которых стоит проснуться</div>
-                    </section>
-                    <section class="side_bar_post">
-                        <figure class="side_bar_post_picture">
-                            <img src="CSS\images\151.jpg" alt="151">
-                        </figure>
-                        <span class="side_bar_post_date">14 июня 2019</span>
-                        <div class="side_bar_post_content">Йога для домашних</div>
-                    </section>
-                    <section class="side_bar_post">
-                        <figure class="side_bar_post_picture">
-                            <img src="CSS\images\45.jpg" alt="45">
-                        </figure>
-                        <span class="side_bar_post_date">14 июня 2019</span>
-                        <div class="side_bar_post_content">Как мы превратили классное место в балкон</div>
-                    </section>
-                    <section class="side_bar_post">
-                        <figure class="side_bar_post_picture">
-                            <img src="CSS\images\501.jpg" alt="501">
-                        </figure>
-                        <span class="side_bar_post_date">14 июня 2019</span>
-                        <div class="side_bar_post_content">Кулинарный подход к науке</div>
-                    </section>
-                    <section class="side_bar_post">
-                        <figure class="side_bar_post_picture">
-                            <img src="CSS\images\7.jpg" alt="7">
-                        </figure>
-                        <span class="side_bar_post_date">14 июня 2019</span>
-                        <div class="side_bar_post_content">Лучшие прически для распущенных волос</div>
-                    </section>
-                </div>
-            </div>
-            <form class="search">
-                <label class="search_group">
-                    <input class="search_field" type="search" placeholder="Найти..." required>
-                    <button class="search_button"></button>
-                </label>
-            </form>
-            <form class="subscribe">
-                <label class="subscribe_group">
-                    <article class="subscribe_title">Рассылка</article>
-                    <input class="subscribe_field" type="email" placeholder="Ваш email-адрес" required>
-                    <button class="subscribe_button">Подписаться</button>
-                </label>
-            </form>
-            <article class="tags_title">Теги</article>
-            <div class="tags">
-                <span class="tag_name">Fashion</span>
-                <span class="tag_name">Music</span>
-                <span class="tag_name">Lifestyle</span>
-                <span class="tag_name">Art</span>
-                <span class="tag_name">Interior</span>
-                <span class="tag_name">Travel</span>
-                <span class="tag_name">Food</span>
-                <span class="tag_name">Health</span>
-            </div>
-            
-            <div class="categories">
-                <article class="categories_title">Темы</article>
-                <div class="categories_list">
-                    <div class="category">
-                        <span class="category_name">Красота</span>
-                        <span class="category_quentity">12</span>
+        <div class="main_content">
+            <article class="main_post_list">
+                <section class="main_post">
+                    <figure class="main_post_picture">
+                        <img src="CSS\images\last-post1.jpg" alt="last-post1">
+                    </figure>
+                    <div class="main_post_frame">
+                        <span class="main_post_category">Travel Health</span>
+                        <div class="main_post_title">10 минут, ради которых стоит проснуться на рассвете</div>
+                        <div class="main_post_info">
+                            <span class="main_post_date">10 июня 2019</span>
+                            <span class="main_post_author">Неизвестный автор</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <span class="category_name">Здоровье</span>
-                        <span class="category_quentity">4</span>
+                    <p class="main_post_text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
+                </section>
+                <section class="main_post">
+                    <figure class="main_post_picture">
+                        <img src="CSS\images\last-post2.jpg" alt="last-post2">
+                    </figure>
+                    <div class="main_post_frame">
+                        <span class="main_post_category">Health Lifestyle</span>
+                        <div class="main_post_title">Йога для начинающих в домашних условиях</div>
+                        <div class="main_post_info">
+                            <span class="main_post_date">10 июня 2019</span>
+                            <span class="main_post_author">Неизвестный автор</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <span class="category_name">Образ жизни</span>
-                        <span class="category_quentity">145</span>
+                    <p class="main_post_text">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+                </section>
+                <section class="main_post">
+                    <figure class="main_post_picture">
+                        <img src="CSS\images\last-post3.jpg" alt="last-post3">
+                    </figure>
+                    <div class="main_post_frame">
+                        <span class="main_post_category">Music</span>
+                        <div class="main_post_title">Лучшие музыкальные фестивали этого лета</div>
+                        <div class="main_post_info">
+                            <span class="main_post_date">10 июня 2019</span>
+                            <span class="main_post_author">Неизвестный автор</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <span class="category_name">Музыка</span>
-                        <span class="category_quentity">28</span>
+                    <p class="main_post_text">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
+                    <p class="main_post_text">Мы составили список лучших летних фестивалей по всему миру.</p>
+                </section>
+                <section class="main_post">
+                    <figure class="main_post_picture">
+                        <img src="CSS\images\last-post4.jpg" alt="last-post4">
+                    </figure>
+                    <div class="main_post_frame">
+                        <span class="main_post_category">Lifestyle Food</span>
+                        <div class="main_post_title">Наукоёмкий подход к кулинарии</div>
+                        <div class="main_post_info">
+                            <span class="main_post_date">10 июня 2019</span>
+                            <span class="main_post_author">Неизвестный автор</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <span class="category_name">Спорт</span>
-                        <span class="category_quentity">62</span>
+                    <p class="main_post_text">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+                </section>
+                <section class="main_post">
+                    <figure class="main_post_picture">
+                        <img src="CSS\images\last-post5.jpg" alt="last-post5">
+                    </figure>
+                    <div class="main_post_frame">
+                        <span class="main_post_category">Lifestyle Interior Art</span>
+                        <div class="main_post_title">Делаем модные принты на подушках для интерьера</div>
+                        <div class="main_post_info">
+                            <span class="main_post_date">10 июня 2019</span>
+                            <span class="main_post_author">Неизвестный автор</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <span class="category_name">Йога</span>
-                        <span class="category_quentity">8</span>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        <article class="main_post_list">
-            <section class="main_post">
-                <figure class="main_post_picture">
-                    <img src="CSS\images\last-post1.jpg" alt="last-post1">
-                </figure>
-                <div class="main_post_frame">
-                    <span class="main_post_category">Travel Health</span>
-                    <div class="main_post_title">10 минут, ради которых стоит проснуться на рассвете</div>
-                    <div class="main_post_info">
-                        <span class="main_post_date">10 июня 2019</span>
-                        <span class="main_post_author">Неизвестный автор</span>
-                    </div>
-                </div>
-                <p class="main_post_text">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
-            </section>
-            <section class="main_post">
-                <figure class="main_post_picture">
-                    <img src="CSS\images\last-post2.jpg" alt="last-post2">
-                </figure>
-                <div class="main_post_frame">
-                    <span class="main_post_category">Health Lifestyle</span>
-                    <div class="main_post_title">Йога для начинающих в домашних условиях</div>
-                    <div class="main_post_info">
-                        <span class="main_post_date">10 июня 2019</span>
-                        <span class="main_post_author">Неизвестный автор</span>
+                    <p class="main_post_text">Подушки для дивана целесообразнее заказывать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
+                </section>
+            </article>
+            <aside class="side_bar">
+                <div class="latest_posts">
+                    <article class="side_bar_title">Новые посты</article>
+                    <div class="side_bar_post_list">
+                        <section class="side_bar_post">
+                            <figure class="side_bar_post_picture">
+                                <img src="CSS\images\2.jpg" alt="2">
+                            </figure>
+                            <span class="side_bar_post_date">14 июня 2019</span>
+                            <div class="side_bar_post_content">10 мест, ради которых стоит проснуться</div>
+                        </section>
+                        <section class="side_bar_post">
+                            <figure class="side_bar_post_picture">
+                                <img src="CSS\images\151.jpg" alt="151">
+                            </figure>
+                            <span class="side_bar_post_date">14 июня 2019</span>
+                            <div class="side_bar_post_content">Йога для домашних</div>
+                        </section>
+                        <section class="side_bar_post">
+                            <figure class="side_bar_post_picture">
+                                <img src="CSS\images\45.jpg" alt="45">
+                            </figure>
+                            <span class="side_bar_post_date">14 июня 2019</span>
+                            <div class="side_bar_post_content">Как мы превратили классное место в балкон</div>
+                        </section>
+                        <section class="side_bar_post">
+                            <figure class="side_bar_post_picture">
+                                <img src="CSS\images\501.jpg" alt="501">
+                            </figure>
+                            <span class="side_bar_post_date">14 июня 2019</span>
+                            <div class="side_bar_post_content">Кулинарный подход к науке</div>
+                        </section>
+                        <section class="side_bar_post">
+                            <figure class="side_bar_post_picture">
+                                <img src="CSS\images\7.jpg" alt="7">
+                            </figure>
+                            <span class="side_bar_post_date">14 июня 2019</span>
+                            <div class="side_bar_post_content">Лучшие прически для распущенных волос</div>
+                        </section>
                     </div>
                 </div>
-                <p class="main_post_text">Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
-            </section>
-            <section class="main_post">
-                <figure class="main_post_picture">
-                    <img src="CSS\images\last-post3.jpg" alt="last-post3">
-                </figure>
-                <div class="main_post_frame">
-                    <span class="main_post_category">Music</span>
-                    <div class="main_post_title">Лучшие музыкальные фестивали этого лета</div>
-                    <div class="main_post_info">
-                        <span class="main_post_date">10 июня 2019</span>
-                        <span class="main_post_author">Неизвестный автор</span>
+                <form class="search">
+                    <label class="search_group">
+                        <input class="search_field" type="search" placeholder="Найти..." required>
+                        <button class="search_button"></button>
+                    </label>
+                </form>
+                <form class="subscribe">
+                    <label class="subscribe_group">
+                        <article class="subscribe_title">Рассылка</article>
+                        <input class="subscribe_field" type="email" placeholder="Ваш email-адрес" required>
+                        <button class="subscribe_button">Подписаться</button>
+                    </label>
+                </form>
+                <article class="tags_title">Теги</article>
+                <div class="tags">
+                    <span class="tag_name">Fashion</span>
+                    <span class="tag_name">Music</span>
+                    <span class="tag_name">Lifestyle</span>
+                    <span class="tag_name">Art</span>
+                    <span class="tag_name">Interior</span>
+                    <span class="tag_name">Travel</span>
+                    <span class="tag_name">Food</span>
+                    <span class="tag_name">Health</span>
+                </div>
+                
+                <div class="categories">
+                    <article class="categories_title">Темы</article>
+                    <div class="categories_list">
+                        <div class="category">
+                            <span class="category_name">Красота</span>
+                            <span class="category_quentity">12</span>
+                        </div>
+                        <div class="category">
+                            <span class="category_name">Здоровье</span>
+                            <span class="category_quentity">4</span>
+                        </div>
+                        <div class="category">
+                            <span class="category_name">Образ жизни</span>
+                            <span class="category_quentity">145</span>
+                        </div>
+                        <div class="category">
+                            <span class="category_name">Музыка</span>
+                            <span class="category_quentity">28</span>
+                        </div>
+                        <div class="category">
+                            <span class="category_name">Спорт</span>
+                            <span class="category_quentity">62</span>
+                        </div>
+                        <div class="category">
+                            <span class="category_name">Йога</span>
+                            <span class="category_quentity">8</span>
+                        </div>
                     </div>
                 </div>
-                <p class="main_post_text">Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
-                <p class="main_post_text">Мы составили список лучших летних фестивалей по всему миру.</p>
-            </section>
-            <section class="main_post">
-                <figure class="main_post_picture">
-                    <img src="CSS\images\last-post4.jpg" alt="last-post4">
-                </figure>
-                <div class="main_post_frame">
-                    <span class="main_post_category">Lifestyle Food</span>
-                    <div class="main_post_title">Наукоёмкий подход к кулинарии</div>
-                    <div class="main_post_info">
-                        <span class="main_post_date">10 июня 2019</span>
-                        <span class="main_post_author">Неизвестный автор</span>
-                    </div>
-                </div>
-                <p class="main_post_text">Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
-            </section>
-            <section class="main_post">
-                <figure class="main_post_picture">
-                    <img src="CSS\images\last-post5.jpg" alt="last-post5">
-                </figure>
-                <div class="main_post_frame">
-                    <span class="main_post_category">Lifestyle Interior Art</span>
-                    <div class="main_post_title">Делаем модные принты на подушках для интерьера</div>
-                    <div class="main_post_info">
-                        <span class="main_post_date">10 июня 2019</span>
-                        <span class="main_post_author">Неизвестный автор</span>
-                    </div>
-                </div>
-                <p class="main_post_text">Подушки для дивана целесообразнее заказывать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
-            </section>
-        </article>
+            </aside>
+        </div>
         <h1 class="shop">
             <span class="shop_title">Наши изделия</span>
         </h1>     
