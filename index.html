@@ -61,7 +61,7 @@
             </nav>
         </div>
         <div class="intro">
-            <span class="title_intro">Блог о творчестве, спорте и образе жизни</span>
+            <h1 class="title_intro">Блог о творчестве, спорте и образе жизни</h1>
         </div>
     </header>
     <main class="main">
@@ -190,7 +190,7 @@
             </article>
             <aside class="side_bar">
                 <div class="latest_posts">
-                    <article class="side_bar_title">Новые посты</article>
+                    <h1 class="side_bar_title">Новые посты</h1>
                     <div class="side_bar_post_list">
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
@@ -231,57 +231,51 @@
                 </div>
                 <form class="search">
                     <label class="search_group">
-                        <input class="search_field" type="search" placeholder="Найти..." required>
+                        <input class="search_field" type="search" name="search_field" placeholder="Найти..." required>
                         <button class="search_button"></button>
                     </label>
                 </form>
                 <form class="subscribe">
                     <label class="subscribe_group">
                         <article class="subscribe_title">Рассылка</article>
-                        <input class="subscribe_field" type="email" placeholder="Ваш email-адрес" required>
+                        <input class="subscribe_field" type="email" name="subscribe_field" placeholder="Ваш email-адрес" required>
                         <button class="subscribe_button">Подписаться</button>
                     </label>
                 </form>
                 <article class="tags_title">Теги</article>
-                <div class="tags">
-                    <span class="tag_name">Fashion</span>
-                    <span class="tag_name">Music</span>
-                    <span class="tag_name">Lifestyle</span>
-                    <span class="tag_name">Art</span>
-                    <span class="tag_name">Interior</span>
-                    <span class="tag_name">Travel</span>
-                    <span class="tag_name">Food</span>
-                    <span class="tag_name">Health</span>
-                </div>
+                <ul class="tags">
+                    <li><a class="tag_name">Fashion</a></li>
+                    <li><a class="tag_name">Music</a></li>
+                    <li><a class="tag_name">Lifestyle</a></li>
+                    <li><a class="tag_name">Art</a></li>
+                    <li><a class="tag_name">Interior</a></li>
+                    <li><a class="tag_name">Travel</a></li>
+                    <li><a class="tag_name">Food</a></li>
+                    <li><a class="tag_name">Health</a></li>
+                </ul>
                 
                 <div class="categories">
                     <article class="categories_title">Темы</article>
-                    <div class="categories_list">
+                    <ul class="categories_list">
+                        <li class="category">
+                            <a class="category_name">Красота</a><a class="category_quentity">12</a>
+                        </li>
+                        <li class="category">
+                            <a class="category_name">Здоровье</a><a class="category_quentity">4</a>
+                        </li>
+                        <li class="category">
+                            <a class="category_name">Образ жизни</a><a class="category_quentity">145</a>
+                        </li>
+                        <li class="category">
+                            <a class="category_name">Музыка</a><a class="category_quentity">28</a>
+                        </li>
                         <div class="category">
-                            <span class="category_name">Красота</span>
-                            <span class="category_quentity">12</span>
+                            <a class="category_name">Спорт</a><a class="category_quentity">62</a>
                         </div>
-                        <div class="category">
-                            <span class="category_name">Здоровье</span>
-                            <span class="category_quentity">4</span>
-                        </div>
-                        <div class="category">
-                            <span class="category_name">Образ жизни</span>
-                            <span class="category_quentity">145</span>
-                        </div>
-                        <div class="category">
-                            <span class="category_name">Музыка</span>
-                            <span class="category_quentity">28</span>
-                        </div>
-                        <div class="category">
-                            <span class="category_name">Спорт</span>
-                            <span class="category_quentity">62</span>
-                        </div>
-                        <div class="category">
-                            <span class="category_name">Йога</span>
-                            <span class="category_quentity">8</span>
-                        </div>
-                    </div>
+                        <li class="category">
+                            <a class="category_name">Йога</a><a class="category_quentity">8</a>
+                        </li>
+                    </ul>
                 </div>
             </aside>
         </div>
