@@ -32,7 +32,7 @@ body {
     font-size: 0.8em;
 }
 
-.trend_category a, .main_post_category, .side_bar_title, .subscribe_title, .tags_title, .categories_title, .side_bar_post_content, .subscribe_button, 
+.trend_category_item, .main_post_category_item, .side_bar_title, .subscribe_title, .tags_title, .categories_title, .side_bar_post_content, .subscribe_button, 
 .category_name, .old_product_price, .product_link, .popup_submit {
     font-size: 0.56em;
 }
@@ -45,7 +45,7 @@ body {
     line-height: 3.33em;
 }
 
-.trend_category a, .main_post_category, .subscribe_button, .product_link, .popup_submit {
+.trend_category_item, .main_post_category_item, .subscribe_button, .product_link, .popup_submit {
     line-height: 2.86em;
 }
 
@@ -58,7 +58,7 @@ body {
     font-weight: 400;
 }
 
-.title_intro, .trends_title, .shop_title, .trend:nth-of-type(4n+1) .trend_info .trend_title, .trend_category a, .main_post_category, .trend_title, .side_bar_title, .subscribe_title, 
+.title_intro, .trends_title, .shop_title, .trend:nth-of-type(4n+1) .trend_info .trend_title, .trend_category_item, .main_post_category_item, .trend_title, .side_bar_title, .subscribe_title, 
 .tags_title, .categories_title, .side_bar_post_content, .subscribe_button, .tag_name, .category_name, .category_quentity, .main_post_title, .main_post_author, .product_title,
 .old_product_price, .new_product_price, .new_product_price, .product_link, .copyrights, .popup_title, .popup_submit {
     font-weight: 700;
@@ -68,7 +68,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-.menu__item, .title_intro, .trends, .trend_info, .trend:nth-of-type(4n+1) .trend_info, .trend:nth-of-type(3n+2) .trend_info, .trend_category a, .main_post_category, 
+.menu__item, .title_intro, .trends, .trend_info, .trend:nth-of-type(4n+1) .trend_info, .trend:nth-of-type(3n+2) .trend_info, .trend_category_item, .main_post_category_item, 
 .side_bar, .subscribe_button, .main_post_title, .shop, .product_title, .product_link, .popup_title, .popup_submit {
     text-transform: uppercase;
 }
@@ -338,7 +338,7 @@ li {
     text-align: center;
 }
 
-.menu__item:hover, .trend_category a:hover, .main_post_category:hover, .logo:hover {
+.menu__item:hover, .trend_category_item:hover, .main_post_category_item:hover, .logo:hover {
     text-decoration: underline;
     cursor: pointer;
     position: relative;
@@ -456,7 +456,6 @@ li {
 
 .trend:nth-of-type(4n+1) .trend_info .trend_title {
     color: #ffffff;
-    margin-top: 2%;
     letter-spacing: 0.05em;
 }
 
@@ -471,7 +470,7 @@ li {
     padding: 4.75% 5% 7.94% 6.49%;
 }
 
-.trend_category a, .main_post_category {
+.trend_category_item, .main_post_category_item {
     color: #b59f5b;
     word-spacing: 1em;
     text-decoration: none;
@@ -561,6 +560,17 @@ li {
     width: 100%;
     margin-top: 50px;
     display: block;
+}
+
+.search_description, .subscribe_description {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .search_field{
@@ -674,6 +684,16 @@ li {
     display: inline-block;
 }
 
+.main_post_category, .trend_category {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main_post_category_item, .trend_category_item {
+    margin-right: 15px;
+}
+
 .main_post_picture {
     float: left;
     margin-left: 0;
@@ -705,7 +725,7 @@ li {
 }
 
 .main_post:nth-of-type(3n+3) .main_post_text:nth-of-type(n+2) {
-    margin-top: -20px;
+    margin-top: 0;
     width: 780px;
     height: 62px;
     font-size: 0.6em;
@@ -739,10 +759,11 @@ li {
 .product_info {
     max-width: 347px;
     box-sizing: border-box;
+    min-height: 270px;
     margin-top: -32px;
     position: relative;
     z-index: 1;
-    padding: 40px 5.76%;
+    padding: 40px 5.76% 10px 5.76%;
     border: 3px solid rgb(181, 159, 91, .5); 
 }
 
