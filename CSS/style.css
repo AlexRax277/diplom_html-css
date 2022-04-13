@@ -37,7 +37,7 @@ body {
     font-size: 0.56em;
 }
 
-.side_bar_post_date, .tag_name, .category_quentity, .main_post_date, .main_post_author, .copyrights {
+.side_bar_post_date, .tag_name, .main_post_date, .main_post_author, .copyrights {
     font-size: 0.48em;
 }
 
@@ -493,7 +493,9 @@ li {
 }
 
 .main_content {
-    width: 100%;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
 }
@@ -646,6 +648,9 @@ li {
 
 .categories_list {
     margin-top: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .category {
@@ -667,9 +672,10 @@ li {
 }
 
 .category_quentity {
+    font-size: 0.86em;
     line-height: 3em;
     color: rgb(181, 159, 91, .7);
-    margin-left: -1%;
+    /* margin-left: -1%; */
     vertical-align: top;
 }
 
@@ -686,6 +692,7 @@ li {
 
 .main_post_category, .trend_category {
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
 }
@@ -735,13 +742,14 @@ li {
 }
 
 .shop {
-    height: 55px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    width: 1200px;
+    margin: 30px auto;
     text-align: center; 
 }
 
 .shop_content {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -824,7 +832,9 @@ li {
 }
 
 .footer {
-    margin-top: 55px;
+    width: 1200px;
+    margin: 55px auto;
+    text-align: center;
 }
 
 .social_list {
@@ -834,6 +844,7 @@ li {
     justify-content: center;
     align-items: center;
     margin: auto;
+    background-color: #f4f7f6;
 }
 
 .social_pic {
@@ -842,7 +853,7 @@ li {
 
 .copyrights {
     margin: 50px auto;
-    text-align: center;
     text-transform: none;
     color: #999999;
+    text-decoration: none;
 }

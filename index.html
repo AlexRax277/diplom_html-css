@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <popup class="popup_hiden">
+    <div class="popup_hiden">
         <div class="popup_container">
             <h1 class="popup_title">Ваш фидбек</h1>
             <form class="sign_up">
                 <label class="select_group">
                     <span class="select_label">Как часто вы заходите на сайт?</span>
-                    <div class="select_wrapper">
+                    <span class="select_wrapper">
                         <select name="select_category" class="select">
                             <option value="select1" selected>Почти каждый день</option>
                             <option value="select2">Раз в несколько дней</option>
                             <option value="select3">Раз в несколько недель</option>
                             <option value="select4">Несколько раз в год</option>
                         </select>
-                    </div>
+                    </span>
                 </label>
                 <div class="radio_label">Вы подписаны на e-mail рассылку?</div>
                 <div class="radio">
@@ -43,10 +43,10 @@
             <button class="popup_close" type="button">Закрыть окно</button>
         </div>
         
-    </popup>
+    </div>
     <header class="header">
         <div class="logo_menu">
-            <a href="#0" class="logo"><img src="svg\noemi-logo.svg" alt="logo"></a>
+            <a href="#0" class="logo"><img src="svg/noemi-logo.svg" alt="logo"></a>
             <nav class="menu">
                 <ul class="menu_list">
                     <li><a class="menu__item" href="#0">Главная</a></li>
@@ -76,7 +76,7 @@
                     <div class="trend_title">Сейчас в тренде: сад на подоконнике</div>
                 </div>
                 <div class="trend_picture">
-                    <img width="100%" src="CSS\images\trend1.jpg" alt="trend1"> 
+                    <img width="410" src="CSS/images/trend1.jpg" alt="trend1"> 
                 </div>
             </div>
             <div class="trend">
@@ -87,7 +87,7 @@
                     <div class="trend_title">Сыры на красивых картинках из интернета: какие они на вкус?</div>
                 </div>
                 <div class="trend_picture">
-                    <img width="100%" src="CSS\images\trend2.jpg" alt="trend2"> 
+                    <img width="410" src="CSS/images/trend2.jpg" alt="trend2"> 
                 </div>            
             </div>
             <div class="trend">
@@ -99,7 +99,7 @@
                     <div class="trend_title">Собираемся в первый поход в горы</div>
                 </div>
                 <div class="trend_picture">
-                    <img width="100%" src="CSS\images\trend3.jpg" alt="trend3"> 
+                    <img width="410" src="CSS/images/trend3.jpg" alt="trend3"> 
                 </div> 
             </div>
             <div class="trend">
@@ -111,22 +111,22 @@
                     <div class="trend_title">Сейчас в тренде: сколько витамина С в лимонах?</div>
                 </div>
                 <div class="trend_picture">
-                    <img width="100%" src="CSS\images\trend4.jpg" alt="trend4"> 
+                    <img width="410" src="CSS/images/trend4.jpg" alt="trend4"> 
                 </div>
             </div>
         </div>
         <div class="main_content">
-            <article class="main_post_list">
+            <div class="main_post_list">
                 <section class="main_post">
                     <figure class="main_post_picture">
-                        <img src="CSS\images\last-post1.jpg" alt="last-post1">
+                        <img src="CSS/images/last-post1.jpg" alt="last-post1">
                     </figure>
                     <div class="main_post_frame">
                         <ul class="main_post_category">
-                            <li><span class="main_post_category_item">Travel</span></li>  
-                            <li><span class="main_post_category_item">Health</span></li>
+                            <li><a href="#0" class="main_post_category_item">Travel</a></li>  
+                            <li><a href="#0" class="main_post_category_item">Health</a></li>
                         </ul>
-                        <div class="main_post_title">10 минут, ради которых стоит проснуться на рассвете</div>
+                        <h2 class="main_post_title">10 минут, ради которых стоит проснуться на рассвете</h2>
                         <div class="main_post_info">
                             <span class="main_post_date">10 июня 2019</span>
                             <span class="main_post_author">Неизвестный автор</span>
@@ -136,14 +136,14 @@
                 </section>
                 <section class="main_post">
                     <figure class="main_post_picture">
-                        <img src="CSS\images\last-post2.jpg" alt="last-post2">
+                        <img src="CSS/images/last-post2.jpg" alt="last-post2">
                     </figure>
                     <div class="main_post_frame">
                         <ul class="main_post_category">
-                            <li><span class="main_post_category_item">Health</span></li>  
-                            <li><span class="main_post_category_item">Lifestyle</span></li>
+                            <li><a href="#0" class="main_post_category_item">Health</a></li>  
+                            <li><a href="#0" class="main_post_category_item">Lifestyle</a></li>
                         </ul>
-                        <div class="main_post_title">Йога для начинающих в домашних условиях</div>
+                        <h2 class="main_post_title">Йога для начинающих в домашних условиях</h2>
                         <div class="main_post_info">
                             <span class="main_post_date">10 июня 2019</span>
                             <span class="main_post_author">Неизвестный автор</span>
@@ -153,13 +153,13 @@
                 </section>
                 <section class="main_post">
                     <figure class="main_post_picture">
-                        <img src="CSS\images\last-post3.jpg" alt="last-post3">
+                        <img src="CSS/images/last-post3.jpg" alt="last-post3">
                     </figure>
                     <div class="main_post_frame">
                         <ul class="main_post_category">
-                            <li><span class="main_post_category_item">Music</span></li>  
+                            <li><a href="#0" class="main_post_category_item">Music</a></li>  
                         </ul>
-                        <div class="main_post_title">Лучшие музыкальные фестивали этого лета</div>
+                        <h2 class="main_post_title">Лучшие музыкальные фестивали этого лета</h2>
                         <div class="main_post_info">
                             <span class="main_post_date">10 июня 2019</span>
                             <span class="main_post_author">Неизвестный автор</span>
@@ -170,14 +170,14 @@
                 </section>
                 <section class="main_post">
                     <figure class="main_post_picture">
-                        <img src="CSS\images\last-post4.jpg" alt="last-post4">
+                        <img src="CSS/images/last-post4.jpg" alt="last-post4">
                     </figure>
                     <div class="main_post_frame">
                         <ul class="main_post_category">
-                            <li><span class="main_post_category_item">Lifestyle</span></li>  
-                            <li><span class="main_post_category_item">Food</span></li>
+                            <li><a href="#0" class="main_post_category_item">Lifestyle</a></li>  
+                            <li><a href="#0" class="main_post_category_item">Food</a></li>
                         </ul>
-                        <div class="main_post_title">Наукоёмкий подход к кулинарии</div>
+                        <h2 class="main_post_title">Наукоёмкий подход к кулинарии</h2>
                         <div class="main_post_info">
                             <span class="main_post_date">10 июня 2019</span>
                             <span class="main_post_author">Неизвестный автор</span>
@@ -187,15 +187,15 @@
                 </section>
                 <section class="main_post">
                     <figure class="main_post_picture">
-                        <img src="CSS\images\last-post5.jpg" alt="last-post5">
+                        <img src="CSS/images/last-post5.jpg" alt="last-post5">
                     </figure>
                     <div class="main_post_frame">
                         <ul class="main_post_category">
-                            <li><span class="main_post_category_item">Lifestyle</span></li>  
-                            <li><span class="main_post_category_item">Interior</span></li>
-                            <li><span class="main_post_category_item">Art</span></li>
+                            <li><a href="#0" class="main_post_category_item">Lifestyle</a></li>  
+                            <li><a href="#0" class="main_post_category_item">Interior</a></li>
+                            <li><a href="#0" class="main_post_category_item">Art</a></li>
                         </ul>
-                        <div class="main_post_title">Делаем модные принты на подушках для интерьера</div>
+                        <h2 class="main_post_title">Делаем модные принты на подушках для интерьера</h2>
                         <div class="main_post_info">
                             <span class="main_post_date">10 июня 2019</span>
                             <span class="main_post_author">Неизвестный автор</span>
@@ -203,45 +203,45 @@
                     </div>
                     <p class="main_post_text">Подушки для дивана целесообразнее заказывать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
                 </section>
-            </article>
+            </div>
             <aside class="side_bar">
                 <div class="latest_posts">
-                    <h1 class="side_bar_title">Новые посты</h1>
+                    <h2 class="side_bar_title">Новые посты</h2>
                     <div class="side_bar_post_list">
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
-                                <img src="CSS\images\2.jpg" alt="2">
+                                <img src="CSS/images/2.jpg" alt="2">
                             </figure>
                             <span class="side_bar_post_date">14 июня 2019</span>
-                            <div class="side_bar_post_content">10 мест, ради которых стоит проснуться</div>
+                            <h3 class="side_bar_post_content">10 мест, ради которых стоит проснуться</h3>
                         </section>
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
-                                <img src="CSS\images\151.jpg" alt="151">
+                                <img src="CSS/images/151.jpg" alt="151">
                             </figure>
                             <span class="side_bar_post_date">14 июня 2019</span>
-                            <div class="side_bar_post_content">Йога для домашних</div>
+                            <h3 class="side_bar_post_content">Йога для домашних</h3>
                         </section>
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
-                                <img src="CSS\images\45.jpg" alt="45">
+                                <img src="CSS/images/45.jpg" alt="45">
                             </figure>
                             <span class="side_bar_post_date">14 июня 2019</span>
-                            <div class="side_bar_post_content">Как мы превратили классное место в балкон</div>
+                            <h3 class="side_bar_post_content">Как мы превратили классное место в балкон</h3>
                         </section>
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
-                                <img src="CSS\images\501.jpg" alt="501">
+                                <img src="CSS/images/501.jpg" alt="501">
                             </figure>
                             <span class="side_bar_post_date">14 июня 2019</span>
-                            <div class="side_bar_post_content">Кулинарный подход к науке</div>
+                            <h3 class="side_bar_post_content">Кулинарный подход к науке</h3>
                         </section>
                         <section class="side_bar_post">
                             <figure class="side_bar_post_picture">
-                                <img src="CSS\images\7.jpg" alt="7">
+                                <img src="CSS/images/7.jpg" alt="7">
                             </figure>
                             <span class="side_bar_post_date">14 июня 2019</span>
-                            <div class="side_bar_post_content">Лучшие прически для распущенных волос</div>
+                            <h3 class="side_bar_post_content">Лучшие прически для распущенных волос</h3>
                         </section>
                     </div>
                 </div>
@@ -249,18 +249,18 @@
                     <label class="search_group">
                         <span class="search_description">Это поле поиска, введите сюда то, что хотите найти.</span>
                         <input class="search_field" type="search" name="search_field" placeholder="Найти..." required>
-                        <button class="search_button"></button>
                     </label>
+                    <button class="search_button"></button>
                 </form>
                 <form class="subscribe">
+                    <h2 class="subscribe_title">Рассылка</h2>
                     <label class="subscribe_group">
-                        <article class="subscribe_title">Рассылка</article>
                         <span class="subscribe_description">Это поле рассылки писем, введите сюда адрес своей почты.</span>
                         <input class="subscribe_field" type="email" name="subscribe_field" placeholder="Ваш email-адрес" required>
-                        <button class="subscribe_button">Подписаться</button>
                     </label>
+                    <button class="subscribe_button">Подписаться</button>
                 </form>
-                <article class="tags_title">Теги</article>
+                <h2 class="tags_title">Теги</h2>
                 <ul class="tags">
                     <li><a class="tag_name">Fashion</a></li>
                     <li><a class="tag_name">Music</a></li>
@@ -271,27 +271,26 @@
                     <li><a class="tag_name">Food</a></li>
                     <li><a class="tag_name">Health</a></li>
                 </ul>
-                
                 <div class="categories">
-                    <article class="categories_title">Темы</article>
+                    <h2 class="categories_title">Темы</h2>
                     <ul class="categories_list">
                         <li class="category">
-                            <a class="category_name">Красота</a><a class="category_quentity">12</a>
+                            <a class="category_name">Красота<span class="category_quentity">12</span></a>
                         </li>
                         <li class="category">
-                            <a class="category_name">Здоровье</a><a class="category_quentity">4</a>
+                            <a class="category_name">Здоровье<span class="category_quentity">4</span></a>
                         </li>
                         <li class="category">
-                            <a class="category_name">Образ жизни</a><a class="category_quentity">145</a>
+                            <a class="category_name">Образ жизни<span class="category_quentity">145</span></a>
                         </li>
                         <li class="category">
-                            <a class="category_name">Музыка</a><a class="category_quentity">28</a>
+                            <a class="category_name">Музыка<span class="category_quentity">28</span></a>
                         </li>
-                        <div class="category">
-                            <a class="category_name">Спорт</a><a class="category_quentity">62</a>
-                        </div>
                         <li class="category">
-                            <a class="category_name">Йога</a><a class="category_quentity">8</a>
+                            <a class="category_name">Спорт<span class="category_quentity">62</span></a>
+                        </li>
+                        <li class="category">
+                            <a class="category_name">Йога<span class="category_quentity">8</span></a>
                         </li>
                     </ul>
                 </div>
@@ -303,10 +302,10 @@
         <div class="shop_content"> 
             <section class="product">
                 <figure class="product_picture">
-                    <img src="CSS\images\shop-item-desk1.jpg" alt="shop-item-desk1">
+                    <img src="CSS/images/shop-item-desk1.jpg" alt="shop-item-desk1">
                 </figure>
                 <div class="product_info">
-                    <span class="product_title">Подушки на диван</span>
+                    <h2 class="product_title">Подушки на диван</h2>
                     <p class="product_text">Набор из двух подушек с модными принтамию Видео о создании <a class="text_link" href="#0">здесь</a>.</p>
                     <div class="price_link">
                         <div class="product_price">
@@ -319,11 +318,11 @@
             </section>
             <section class="product">
                 <figure class="product_picture">
-                    <img src="CSS\images\shop-item-desk2.jpg" alt="shop-item-desk2">
+                    <img src="CSS/images/shop-item-desk2.jpg" alt="shop-item-desk2">
                 </figure>
                 <div class="product_info">
-                    <span class="product_title">Кукла "зайчик"</span>
-                    <p class="product_text">Интерьерная рукодельная кукла &#171Зайчик&#187, созданию которой посвящена <a class="text_link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+                    <h2 class="product_title">Кукла "зайчик"</h2>
+                    <p class="product_text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="text_link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
                     <div class="price_link">
                         <div class="product_price">
                             <div class="new_product_price">3500 <span class="rub">Р</span></div>
@@ -334,11 +333,11 @@
             </section>
             <section class="product">
                 <figure class="product_picture">
-                    <img src="CSS\images\shop-item-desk3.jpg" alt="shop-item-desk3">
+                    <img src="CSS/images/shop-item-desk3.jpg" alt="shop-item-desk3">
                 </figure>
                 <div class="product_info">
-                    <span class="product_title">Шестиугольная рамка</span>
-                    <p class="product_text">Необычная рамка для украшения дома из видео <a class="text_link" href="#0">&#171Как сделать рамку из подручных средств за 30 минут&#187</a></p>
+                    <h2 class="product_title">Шестиугольная рамка</h2>
+                    <p class="product_text">Необычная рамка для украшения дома из видео <a class="text_link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
                     <div class="price_link">
                         <div class="product_price">
                             <div class="old_product_price">500 <span class="rub">Р</span></div>
@@ -353,14 +352,14 @@
     <footer class="footer">
         <address class="social">
             <div class="social_list"> 
-                <a class="social_pic"><img width="30px" src="svg\004-twitter.svg" alt="twitter"></a>
-                <a class="social_pic"><img width="30px" src="svg\001-pinterest.svg" alt="pinterest"></a>
-                <a class="social_pic"><img width="30px" src="svg\002-facebook-logo.svg" alt="facebook"></a>
-                <a class="social_pic"><img width="30px" src="svg\005-instagram.svg" alt="instagram"></a>
-                <a class="social_pic"><img width="30px" src="svg\003-tumblr.svg" alt="tumblr"></a>
+                <a class="social_pic"><img width="30" src="svg/004-twitter.svg" alt="twitter"></a>
+                <a class="social_pic"><img width="30" src="svg/001-pinterest.svg" alt="pinterest"></a>
+                <a class="social_pic"><img width="30" src="svg/002-facebook-logo.svg" alt="facebook"></a>
+                <a class="social_pic"><img width="30" src="svg/005-instagram.svg" alt="instagram"></a>
+                <a class="social_pic"><img width="30" src="svg/003-tumblr.svg" alt="tumblr"></a>
             </div>
         </address>
-        <div class="copyrights">Copyright &#9400 2009-2019 City Blog LLC.</div>
+        <a href="#0" class="copyrights">Copyright © 2009-2019 City Blog LLC.</a>
     </footer>
 </body>
 </html>
